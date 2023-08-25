@@ -50,16 +50,15 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
-
+.page {
+  display: grid;
+}
 .content {
   display: flex;
+  margin: auto;
   justify-content: center;
   align-items: flex-end;
   gap: 30px;
-  margin-inline-start: 30px;
-  margin-inline-end: 30px;
-  margin-block-start: 133px;
-  margin-block-end: 133px;
   inline-size: 1140px;
   block-size: 534px;
 }
