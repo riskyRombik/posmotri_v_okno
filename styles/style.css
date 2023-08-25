@@ -9,7 +9,6 @@ html {
 }
 
 .page {
-  margin: auto;
   color: #fff;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-size: 18px;
@@ -20,6 +19,10 @@ html {
   inset-inline-end: 0;
   inset-block-end: 0;
   inset-inline-start: 0;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
 }
 
 h1,
@@ -51,18 +54,13 @@ ol {
   white-space: nowrap;
 }
 
-.page {
-  display: flex;
-  align-items: center;
-}
-
 .content {
   display: flex;
   justify-content: center;
   align-items: flex-end;
   gap: 30px;
-  inline-size: 1140px;
-  block-size: 534px;
+  max-inline-size: 1140px;
+  min-block-size: 534px;
 }
 
 .result {
