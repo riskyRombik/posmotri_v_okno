@@ -50,11 +50,12 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
 .page {
-  display: grid;
-  justify-content: center;
+  display: flex;
   align-items: center;
 }
+
 .content {
   display: flex;
   justify-content: center;
